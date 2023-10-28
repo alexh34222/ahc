@@ -19,3 +19,7 @@
   justify-content: center;
   align-items: center;
 }
+
+.contactContent h1 {
+  margin-bottom: 10px;
+}

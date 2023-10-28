@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,900&family=Ubuntu&display=swap");
+
+.projects {
+  font-family: "Lato", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  min-height: 100vh;
+}
+
+.projectsBackground {
+  background-image: url("../images/sunrise.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.projectsContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

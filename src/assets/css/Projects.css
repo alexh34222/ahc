@@ -14,8 +14,58 @@
 }
 
 .projectsContent {
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.projectPageTitle {
+  padding: 15px;
+  border-radius: 30px;
+  background-color: #0d4cf823;
+  margin-bottom: 40px;
+}
+
+.projectList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.projectList img {
+  height: 300px;
+  opacity: 0.7;
+}
+
+.projectList p {
+  border: 2px solid white;
+  border-radius: 50px;
+  background-color: black;
+  padding: 20px;
+}
+
+.projectListText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projectList a {
+  text-decoration: none;
+  color: white;
+}
+
+.projectItem:hover img {
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.projectItem:hover p {
+  cursor: pointer;
+  color: #fe7f2d;
 }
